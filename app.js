@@ -38,7 +38,7 @@ app.post('/all', async (req, res) => {
         data: '',
         headers: {
             "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
-            "x-rapidapi-key": "5c4de196ffmsh269f57a13756b53p1d99bejsna098140c90a0"
+            "x-rapidapi-key": process.env.RAPIDAPIKEY
         },
         json: true
     };
